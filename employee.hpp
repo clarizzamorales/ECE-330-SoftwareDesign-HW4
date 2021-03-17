@@ -26,7 +26,7 @@ public:
  
   
   
-private:
+public:
   long  myIdNum;			//Employee id number
   string myLastName;		//Employee last name
   string myFirstName;		//Employee first name

@@ -1,0 +1,61 @@
+#Clarizza Morales Chacon
+#ECE 330 - Software Design
+#Homework #4 - Salaried and Hourly Employee - Inheritance 
+#Output Text File
+
+
+g++ -c test.cpp
+g++ test.o employee.o salariedEmployee.o hourlyEmployee.o -o run_employee
+(base) clarizza@MacBook-Pro ECE-330-SoftwareDesign-HW4 % ./run_employee 
+
+Print Employee 1,2,3 Salary Information: 
+
+Employee ID Number: 1
+Name: Jones , Booker, T
+Department Code: 22
+Employee Salary: 14000
+
+Employee ID Number: 2
+Name: Hendrix , Jimi, NMI 
+Department Code: 14
+Employee Salary: 32000
+
+Employee ID Number: 3
+Name: Morrison , Jim, D
+Department Code: 3
+Employee Salary: 28000
+
+Print Employee 4,5,6 Hourly Information: 
+
+Employee ID Number: 4
+Name: Richardson, Samantha M.
+Department Code: 11
+Total Hours Worked : 34
+Hourly Rate : 12
+Employee Weekly Payment : 408
+
+Employee ID Number: 5
+Name: Smith, Laura K.
+Department Code: 67
+Total Hours Worked : 40
+Hourly Rate : 14
+Employee Weekly Payment : 560
+
+Employee ID Number: 6
+Name: Lavisky, Alexandra S.
+Department Code: 5
+Total Hours Worked : 20
+Hourly Rate : 14
+Employee Weekly Payment : 280
+
+Print Employee 1 and 5 information using printEmployee() from Employee.cpp: 
+
+Employee ID Number: 1
+Name: Jones, Booker T.
+Dept Code: 22
+
+Employee ID Number: 5
+Name: Smith, Laura K.
+Dept Code: 67
+
+

@@ -8,7 +8,7 @@
 #include <string>
 
 
-#include "employee.h"
+#include "employee.hpp"
 
 using namespace std;
 
@@ -85,7 +85,7 @@ int Employee:: getDeptCode () const				// get department code
 }
 
 
-void Employee:: printEmployee ()			// print Employee information
+void Employee::printEmployee()			// print Employee information
 {
   cout << endl;
   cout << "Employee ID Number: " << getIdNum() << endl;
